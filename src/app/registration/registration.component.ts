@@ -8,6 +8,7 @@ class UserForm  {
   gender: GenderEnum;
   city: string;
   dateOfBirth: string;
+  dateOfApp: string;
 }
 
 @Component({
@@ -25,19 +26,17 @@ export class RegistrationComponent implements OnInit {
   }
 
   addUser(userData: UserForm): void {
+    const appDate = new Date();
+    appDate.setDate(appDate.getDate() + 2 * 7);
+    console.log(appDate);
     const user = new User(
       userData.firstname,
       userData.lastname,
       userData.gender,
       userData.dateOfBirth,
       userData.city,
+      appDate.toString()
     );
     this.userService.addUser(user);
-    this.display(user);
   }
-
-  display(userData) {
-    console.log(userData);
-  }
-
 }

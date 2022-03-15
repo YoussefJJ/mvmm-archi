@@ -7,6 +7,7 @@
         <th scope="col">City</th>
         <th scope="col">Gender</th>
         <th scope="col">Date of Birth</th>
+        <th scope="col">Date of Appointment</th>
       </tr>
     </thead>
     <tbody>
@@ -16,7 +17,13 @@
           <td>{{user.lastname}}</td>
           <td>{{user.city}}</td>
           <td>{{user.gender}}</td>
-          <td>{{user.dateOfBirth}}</td>
+          <td>{{user.dateOfBirth}} </td>
+          <td>{{user.dateOfApp}}
+            <button class="btn btn-danger" style="float: right;" (click)="deleteRegistration(index)">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+                Delete
+            </button>
+        </td>
       </tr>
     </tbody>
   </table>

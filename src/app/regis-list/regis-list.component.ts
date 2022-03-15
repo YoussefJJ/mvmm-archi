@@ -16,4 +16,9 @@ export class RegisListComponent implements OnInit {
     this.users = this.userService.getUsers();
   }
 
+  deleteRegistration(index: number): void {
+    this.userService.deleteUser(index);
+    this.users = this.userService.getUsers();
+  }
+
 }
