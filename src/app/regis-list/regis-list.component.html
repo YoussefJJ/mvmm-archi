@@ -19,6 +19,11 @@
           <td>{{user.gender}}</td>
           <td>{{user.dateOfBirth}} </td>
           <td>{{user.dateOfApp}}
+            <button class="btn btn-danger" style="float: right;" (click)="updateRegistration(index)">
+                <i class="fas fa-edit"></i>
+                Delay Date
+            </button></td>
+            <td>
             <button class="btn btn-danger" style="float: right;" (click)="deleteRegistration(index)">
                 <i class="fa fa-trash" aria-hidden="true"></i>
                 Delete

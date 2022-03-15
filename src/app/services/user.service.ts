@@ -5,6 +5,7 @@ import { User } from '../models/user.model';
   providedIn: 'root'
 })
 export class UserService {
+  
 
 users: User[] =  [];
   constructor() {
@@ -22,5 +23,11 @@ users: User[] =  [];
 
   getUsers(): User[] {
     return this.users.slice();
+  }
+
+  editAppointment(days: number, index: any) {
+    const date = new Date(this.users[index].dateOfApp);
+    date.setDate(date.getDate() + days);
+    this.users[index].dateOfApp = date.toLocaleString();
   }
 }

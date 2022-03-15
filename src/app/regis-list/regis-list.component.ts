@@ -21,4 +21,9 @@ export class RegisListComponent implements OnInit {
     this.users = this.userService.getUsers();
   }
 
+  updateRegistration(index): void {
+    const days = parseInt(prompt('How many weeks do you want to delay your appointment?', '0'), 10);
+    this.userService.editAppointment(days, index);
+  }
+
 }
