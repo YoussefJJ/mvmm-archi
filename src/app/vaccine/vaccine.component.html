@@ -1,1 +1,23 @@
-<p>vaccine works!</p>
+<div class="container" style="margin: 10px; font-size: large; font-weight: 600;">
+    <h1>Vaccination Statistics</h1>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Gouvernorat</th>
+            <th scope="col">Inscrits</th>
+            <th scope="col">Convoqués</th>
+            <th scope="col">Ont reçu au moins une dose</th>
+            <th scope="col">Ont complété la vaccination</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let state of data; let index = index">
+              <td>{{state["Gouvernorat"]}}</td>
+              <td>{{state["Inscrits"]}}</td>
+              <td>{{state["Convoqués"]}}</td>
+              <td>{{state["Ont reçu au moins une dose"]}}</td>
+              <td>{{state["Ont complété la vaccination"]}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>

@@ -1,0 +1,177 @@
+[
+  {
+    "Gouvernorat": "Tunis",
+    "Inscrits": "835,662",
+    "Convoqués": "833,217",
+    "Ont reçu au moins une dose": "774,283",
+    "Ont complété la vaccination": "700,015"
+  },
+  {
+    "Gouvernorat": "Sfax",
+    "Inscrits": "714,092",
+    "Convoqués": "712,486",
+    "Ont reçu au moins une dose": "654,162",
+    "Ont complété la vaccination": "591,728"
+  },
+  {
+    "Gouvernorat": "Nabeul",
+    "Inscrits": "566,310",
+    "Convoqués": "564,518",
+    "Ont reçu au moins une dose": "510,214",
+    "Ont complété la vaccination": "442,415"
+  },
+  {
+    "Gouvernorat": "Ben Arous",
+    "Inscrits": "521,594",
+    "Convoqués": "520,238",
+    "Ont reçu au moins une dose": "488,177",
+    "Ont complété la vaccination": "443,138"
+  },
+  {
+    "Gouvernorat": "Sousse",
+    "Inscrits": "513,873",
+    "Convoqués": "512,827",
+    "Ont reçu au moins une dose": "475,891",
+    "Ont complété la vaccination": "433,210"
+  },
+  {
+    "Gouvernorat": "Ariana",
+    "Inscrits": "445,719",
+    "Convoqués": "444,378",
+    "Ont reçu au moins une dose": "414,878",
+    "Ont complété la vaccination": "369,532"
+  },
+  {
+    "Gouvernorat": "Bizerte",
+    "Inscrits": "427,202",
+    "Convoqués": "426,443",
+    "Ont reçu au moins une dose": "386,794",
+    "Ont complété la vaccination": "340,094"
+  },
+  {
+    "Gouvernorat": "Monastir",
+    "Inscrits": "394,570",
+    "Convoqués": "393,791",
+    "Ont reçu au moins une dose": "365,184",
+    "Ont complété la vaccination": "325,863"
+  },
+  {
+    "Gouvernorat": "Kairouan",
+    "Inscrits": "321,908",
+    "Convoqués": "321,397",
+    "Ont reçu au moins une dose": "276,537",
+    "Ont complété la vaccination": "224,272"
+  },
+  {
+    "Gouvernorat": "Mannouba",
+    "Inscrits": "302,293",
+    "Convoqués": "301,640",
+    "Ont reçu au moins une dose": "278,513",
+    "Ont complété la vaccination": "241,279"
+  },
+  {
+    "Gouvernorat": "Kasserine",
+    "Inscrits": "299,612",
+    "Convoqués": "299,335",
+    "Ont reçu au moins une dose": "267,676",
+    "Ont complété la vaccination": "218,204"
+  },
+  {
+    "Gouvernorat": "Jendouba",
+    "Inscrits": "273,205",
+    "Convoqués": "272,764",
+    "Ont reçu au moins une dose": "245,457",
+    "Ont complété la vaccination": "211,191"
+  },
+  {
+    "Gouvernorat": "Mahdia",
+    "Inscrits": "263,238",
+    "Convoqués": "262,840",
+    "Ont reçu au moins une dose": "235,795",
+    "Ont complété la vaccination": "206,414"
+  },
+  {
+    "Gouvernorat": "Sidi Bouzid",
+    "Inscrits": "260,159",
+    "Convoqués": "259,645",
+    "Ont reçu au moins une dose": "218,110",
+    "Ont complété la vaccination": "189,266"
+  },
+  {
+    "Gouvernorat": "Gafsa",
+    "Inscrits": "251,954",
+    "Convoqués": "251,583",
+    "Ont reçu au moins une dose": "230,861",
+    "Ont complété la vaccination": "209,073"
+  },
+  {
+    "Gouvernorat": "Gabès",
+    "Inscrits": "245,159",
+    "Convoqués": "244,825",
+    "Ont reçu au moins une dose": "225,322",
+    "Ont complété la vaccination": "200,222"
+  },
+  {
+    "Gouvernorat": "Béja",
+    "Inscrits": "221,388",
+    "Convoqués": "221,156",
+    "Ont reçu au moins une dose": "204,880",
+    "Ont complété la vaccination": "180,718"
+  },
+  {
+    "Gouvernorat": "Le Kef",
+    "Inscrits": "172,719",
+    "Convoqués": "172,503",
+    "Ont reçu au moins une dose": "160,224",
+    "Ont complété la vaccination": "140,081"
+  },
+  {
+    "Gouvernorat": "Médenine",
+    "Inscrits": "170,862",
+    "Convoqués": "170,285",
+    "Ont reçu au moins une dose": "148,438",
+    "Ont complété la vaccination": "134,136"
+  },
+  {
+    "Gouvernorat": "Siliana",
+    "Inscrits": "146,251",
+    "Convoqués": "146,102",
+    "Ont reçu au moins une dose": "132,727",
+    "Ont complété la vaccination": "110,736"
+  },
+  {
+    "Gouvernorat": "Zaghouan",
+    "Inscrits": "139,321",
+    "Convoqués": "139,174",
+    "Ont reçu au moins une dose": "128,393",
+    "Ont complété la vaccination": "113,884"
+  },
+  {
+    "Gouvernorat": "Médenine-Djerba",
+    "Inscrits": "114,325",
+    "Convoqués": "114,041",
+    "Ont reçu au moins une dose": "105,877",
+    "Ont complété la vaccination": "97,860"
+  },
+  {
+    "Gouvernorat": "Kebili",
+    "Inscrits": "103,292",
+    "Convoqués": "103,213",
+    "Ont reçu au moins une dose": "94,446",
+    "Ont complété la vaccination": "82,089"
+  },
+  {
+    "Gouvernorat": "Tozeur",
+    "Inscrits": "81,249",
+    "Convoqués": "81,175",
+    "Ont reçu au moins une dose": "77,519",
+    "Ont complété la vaccination": "70,836"
+  },
+  {
+    "Gouvernorat": "Tataouine",
+    "Inscrits": "71,344",
+    "Convoqués": "71,268",
+    "Ont reçu au moins une dose": "63,664",
+    "Ont complété la vaccination": "57,466"
+  }
+]

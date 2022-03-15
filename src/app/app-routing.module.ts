@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { RegisListComponent } from './regis-list/regis-list.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { VaccineComponent } from './vaccine/vaccine.component';
 
 
 const routes: Routes = [
@@ -10,6 +11,9 @@ const routes: Routes = [
   },
   {
     path: 'my-registrations', component: RegisListComponent
+  },
+  {
+    path: 'vaccin', component: VaccineComponent
   }
 ];
 
