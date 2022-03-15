@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-declare function require(name:string);
+// tslint:disable-next-line: typedef
+declare function require(name: string);
 
 @Component({
   selector: 'app-vaccine',
@@ -13,7 +14,6 @@ export class VaccineComponent implements OnInit {
   ngOnInit(): void {
     const data = require('./../../assets/data/data.json');
     this.data = data;
-    console.log(this.data)
   }
 
 }
