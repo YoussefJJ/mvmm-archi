@@ -1,0 +1,58 @@
+<div class="container">
+    <form #userData="ngForm" (ngSubmit)="addUser(userData)">
+    <div class="form-group">
+      <label for="exampleInputname1">Nom</label>
+      <input type="text" 
+      class="form-control" 
+      id="exampleInputName1" 
+      aria-describedby="nameHelp" 
+      placeholder="Enter last name"
+      name="lastname"
+      [(ngModel)]="userData.lastname"
+      required>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputname">Prénom</label>
+        <input type="text" 
+        class="form-control" 
+        id="exampleInputName" 
+        aria-describedby="lastnameHelp" 
+        placeholder="Enter first name"
+        name="firstname"
+        required
+        [(ngModel)]="userData.firstname"
+        >
+    </div>
+    <div class="form-group">
+        <label for="exampleInputCity">Ville</label>
+        <input type="text" 
+        class="form-control" 
+        id="exampleInputCity" 
+        aria-describedby="CityHelp" 
+        placeholder="Enter city"
+        name="city"
+        required
+        [(ngModel)]="userData.city"
+        >
+    </div>
+    <div class="form-group">
+        <label for="gender">Sexe</label>
+        <input type="radio" value="MALE" name="sexe" id="gender1" [(ngModel)]="userData.gender">
+        <label for="gender1">Homme</label>
+        <input type="radio" value="FEMALE" name="sexe" id="gender2" [(ngModel)]="userData.gender">
+        <label for="gender2">Femme</label>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputDate">Date de Naissance</label>
+        <input type="date" 
+        class="form-control" 
+        id="date" 
+        placeholder="Enter Date"
+        name="dateOfBirth"
+        required
+        [(ngModel)]="userData.dateOfBirth"
+        >
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
