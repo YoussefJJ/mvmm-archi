@@ -1,6 +1,13 @@
 # Mvvm-Archi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+As mentionded in the last question, the preferred choice of architectual style is the MVP. however it is best implemented for mobile devices. This web project is, as a result, a demo application made with Angular. Angular Framework centers around a High-Level Architecture. It implements a lot of the core concepts of MVVM, so I figured it's the best way to highlight how it works.<br><br>
+This demo implements the following functionalities:
+<ol>
+  <li>Registration for a vaccine Appointment</li>
+  <li>Check all Appointments</li>
+  <li>Check Vaccine Statistics</li>
+  <li>Delay Appointment</li>
+</ol>
 
 ## Development server
 
